@@ -265,17 +265,17 @@ img {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-
+/*
 .outer {
   width: 100%;
-}
+} 
 
 .inner {
   position: relative;
   max-width: 800px;
   padding: 20px 10px;
   margin: 0 auto;
-}
+} */
 
 #forkme_banner {
   display: block;
@@ -388,11 +388,16 @@ Small Device Styles
   #downloads {
     display: none;
   }
-
+/*
   .inner {
     min-width: 320px;
     max-width: 480px;
-  }
+  } */
+
+  .inner {
+    min-width: 480px;
+    max-width: 600px;
+  } 
 
   #project_title {
   font-size: 32px;
