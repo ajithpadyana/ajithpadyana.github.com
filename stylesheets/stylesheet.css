@@ -129,7 +129,11 @@ a {
 }
 
 #main_content a:hover {
-  color: #0069ba;
+  /*color: #0069ba;*/
+  color: #cfb8c9
+ /* background: #212121;
+  background: #cfcfcf;*/
+  background: #2334cf;
   text-shadow: #0090ff 0px 0px 2px;
 }
 
@@ -364,7 +368,11 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  /*background: #f2f2f2;*/
+  color: #cfb8c9
+ /* background: #212121;
+  background: #cfcfcf;*/
+  background: #2334cf;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
